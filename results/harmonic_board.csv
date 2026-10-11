@@ -1,0 +1,4 @@
+loop_half_width,circulation,mu0_I,relative_error,max_rel_error_V_linear
+0.1,7.109e-06,7.109e-06,4.875e-05,5e-08
+0.2,2.843e-05,2.843e-05,0.0001767,5e-08
+0.3,6.396e-05,6.398e-05,0.0002204,5e-08

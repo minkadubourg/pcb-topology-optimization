@@ -1,0 +1,4 @@
+case,accepted_steps,J_initial,J_final,copper_fraction,iterations,R,R_thresholded,R_bound
+"descent, no budget",27.0000,2.3883,0.5278,1.0000,,,,
+"MMA, 30 % copper",,,,0.3000,129.0000,3.4492,3.3380,3.3333
+"MMA, 30 % copper, keep-out",,,,0.3000,200.0000,3.9503,3.5082,3.4722
