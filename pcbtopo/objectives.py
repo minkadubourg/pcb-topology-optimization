@@ -24,8 +24,9 @@ class PortVoltageTarget:
 
 
 class Compliance:
-    """J = sum_p I_p U_p: electrical power delivered by the current sources,
-    equal to the Joule losses. Minimising it minimises the equivalent resistance."""
+    """J = sum_p I_p U_p: electrical power delivered by the current sources.
+    When every driven pad is current-driven (ground at 0 V), this equals the Joule
+    losses, and minimising it minimises the equivalent resistance."""
 
     def __init__(self, model):
         self.f = model.f
