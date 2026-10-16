@@ -65,7 +65,7 @@ interpolation laws, and the agreement is better than $10^{-4}$ relative.
 | name | $J$ | $\partial J / \partial x$ |
 |---|---|---|
 | voltage target | $\tfrac12(U_a - U_b - U^\star)^2$ | $\pm(U_a - U_b - U^\star)$ on the two pad unknowns |
-| compliance | $\sum_p I_p U_p$ = Joule losses | $f$ (self-adjoint: $\lambda = -x$) |
+| compliance | $\sum_p I_p U_p$ = Joule losses (current-driven pads) | $f$ (self-adjoint: $\lambda = -x$) |
 | field energy | $\tfrac12\int|\nabla u|^2$ | $M x$, with $M$ the unweighted stiffness |
 
 **Constraints.**

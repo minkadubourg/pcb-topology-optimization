@@ -42,7 +42,7 @@ Greyness is the area-average of 4ρ(1−ρ): 0 for a pure copper / no copper lay
 
 <p align="center"><img src="figures/resistor_variants.png" width="900" alt="Interpolation variants and the current-driven supply"></p>
 
-5. **Without a copper budget, copper fills the board.** Steepest descent on the field energy ½∫|∇u|², starting from a central bar, fills every allowed element in 27 accepted steps and leaves the keep-out zone empty. This is the correct answer, since more copper always lowers the field. It shows why a constraint, and therefore MMA, is needed.
+5. **Without a copper budget, copper fills the board.** Steepest descent on the field energy ½∫|∇u|², starting from a central bar, fills every allowed element in 27 accepted steps and leaves the keep-out zone empty. Here that is the expected outcome, but it is not a general law. For the dissipated power, more conductivity can only lower it (Rayleigh's monotonicity). The unweighted field energy has no such guarantee: on a near-binary layout, about 10 % of the elements have a positive gradient, so adding copper there would raise it. The run shows why a constraint, and therefore MMA, is needed.
 
 <p align="center"><img src="figures/plate_descent.png" width="900" alt="Unconstrained descent filling the plate"></p>
 
